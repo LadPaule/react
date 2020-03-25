@@ -1,0 +1,22 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+}
+#react-logo {
+  color: #09f8e4;
+}
+#music-icon {
+  color: #25d5ec;
+}
+@media (min-width: 540px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
